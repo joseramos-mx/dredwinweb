@@ -24,22 +24,19 @@ export default function DermatologoLanding() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b border-[#abedf6]">
+      <header className="bg-slate-700 shadow-sm border-b border-[#abedf6]">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-full overflow-hidden">
+            <div className="w-40 h-10 overflow-hidden">
               <Image
                 src="/logo.svg"
                 alt="Dr. Edwin Maldonado Logo"
-                width={40}
-                height={40}
+                width={300}
+                height={400}
                 className="w-full h-full object-cover"
               />
             </div>
-            <div>
-              <h1 className="text-xl font-bold text-slate-800">Dr. Edwin Maldonado</h1>
-              <p className="text-sm text-[#15a8c5]">Dermatólogo y Alergólogo Certificado</p>
-            </div>
+
           </div>
           <a
             href="https://www.doctoralia.com.mx/edwin-daniel-maldonado-dominguez/dermatologo-alergologo/durango#address-id=576018&is-online-only=false&filters%5Bspecializations%5D%5B%5D=17"
