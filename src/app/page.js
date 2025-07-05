@@ -226,7 +226,7 @@ export default function DermatologoLanding() {
               },
               {
                 icon: <Users className="w-12 h-12 text-[#15a8c5]" />,
-                title: "+2,000 Pacientes Atendidos",
+                title: "Decenas de Pacientes Atendidos",
                 description: "Experiencia comprobada en tratamientos dermatológicos y alergias de la piel.",
               },
               {
