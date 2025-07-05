@@ -288,7 +288,7 @@ export default function DermatologoLanding() {
                       <Star key={i} className="w-5 h-5 fill-[#31c5df] text-[#31c5df]" />
                     ))}
                   </div>
-                  <p className="text-slate-600 mb-4 italic">"{testimonial.text}"</p>
+                  <p className="text-slate-600 mb-4 italic">{testimonial.text}</p>
                   <div>
                     <p className="font-semibold text-slate-800">{testimonial.name}</p>
                     <p className="text-sm text-[#15a8c5]">{testimonial.treatment}</p>
