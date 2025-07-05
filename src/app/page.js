@@ -342,9 +342,7 @@ export default function DermatologoLanding() {
       <footer className="bg-[#0c2f3e] text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <div className="w-8 h-8 bg-gradient-to-br from-[#15a8c5] to-[#1488a6] rounded-full flex items-center justify-center">
-              <Stethoscope className="w-5 h-5 text-white" />
-            </div>
+            
             <span className="text-xl font-bold">Dr. Edwin Maldonado</span>
           </div>
           <p className="text-[#72deee] mb-4">Dermatólogo y Alergólogo Certificado - Durango, México</p>
