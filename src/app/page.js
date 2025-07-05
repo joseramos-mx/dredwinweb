@@ -18,6 +18,7 @@ import {
 } from "lucide-react"
 import Image from "next/image"
 import WhatsAppFloat from "@/components/whatsapp-float"
+import Component from "@/components/contact"
 
 export default function DermatologoLanding() {
   return (
@@ -330,66 +331,15 @@ export default function DermatologoLanding() {
             </div>
           </div>
         </div>
+
+        <div className="mt-12 max-w-4xl mx-auto">
+          <Component />
+        </div>
+
       </section>
 
       {/* Información de contacto */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">Consultorio Dermatológico en Durango</h3>
-              <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <MapPin className="w-6 h-6 text-[#15a8c5]" />
-                  <div>
-                    <p className="font-semibold text-slate-800">Dirección</p>
-                    <p className="text-slate-600">Central Médica Santa Ana, Consultorio 8</p>
-                    <p className="text-slate-600">Durango, México</p>
-                  </div>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Phone className="w-6 h-6 text-[#15a8c5]" />
-                  <div>
-                    <p className="font-semibold text-slate-800">Teléfono / WhatsApp</p>
-                    <p className="text-slate-600">(871) 973-7381</p>
-                  </div>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Clock className="w-6 h-6 text-[#15a8c5]" />
-                  <div>
-                    <p className="font-semibold text-slate-800">Horarios</p>
-                    <p className="text-slate-600">Lunes a Viernes: 10:00 – 18:00</p>
-                    <p className="text-slate-600">Sábado: 10:00 – 14:00</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-6">Solicita tu Consulta Dermatológica</h3>
-              <form className="space-y-4">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <Input placeholder="Nombre completo" className="border-[#abedf6] focus:border-[#15a8c5]" />
-                  <Input placeholder="Teléfono" className="border-[#abedf6] focus:border-[#15a8c5]" />
-                </div>
-                <Input placeholder="Email" type="email" className="border-[#abedf6] focus:border-[#15a8c5]" />
-                <select className="w-full p-3 border border-[#abedf6] rounded-md focus:border-[#15a8c5] focus:outline-none">
-                  <option>Selecciona un servicio</option>
-                  <option>Consulta Dermatológica</option>
-                  <option>Consulta Alergológica</option>
-                  <option>Pruebas de Alergia</option>
-                  <option>Tratamiento de Acné</option>
-                  <option>Tratamiento de Manchas</option>
-                  <option>Rejuvenecimiento Facial</option>
-                  <option>Otro</option>
-                </select>
-                <Button className="w-full bg-gradient-to-r from-[#15a8c5] to-[#1488a6] hover:from-[#1488a6] hover:to-[#176d87] text-white font-semibold py-3">
-                  Enviar Solicitud de Cita
-                </Button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Footer */}
       <footer className="bg-[#0c2f3e] text-white py-8">
