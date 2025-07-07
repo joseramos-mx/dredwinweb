@@ -69,7 +69,7 @@ export default function DermatologoLanding() {
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed">
                 Consulta dermatológica y alergológica con el Dr. Edwin Maldonado, especialista en piel certificado en
-                Durango. Tratamientos efectivos para acné, manchas, alergias cutáneas y rejuvenecimiento facial.
+                Durango. Tratamientos efectivos para acné, manchas, alergias cutáneas, especialista en piel y en enfermedades del sistema inmunológico.
                 Recupera tu confianza con tecnología avanzada y un enfoque humano.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -80,7 +80,7 @@ export default function DermatologoLanding() {
                   className="inline-flex items-center bg-gradient-to-r from-[#15a8c5] to-[#1488a6] hover:from-[#1488a6] hover:to-[#176d87] text-white font-semibold px-8 py-3 rounded-md transition-all duration-200 text-lg"
                 >
                   <Calendar className="w-5 h-5 mr-2" />
-                  Consulta Dermatológica Durango
+                  Consulta en Durango
                 </a>
                 <a
                   href="tel:8719737381"
@@ -127,7 +127,7 @@ export default function DermatologoLanding() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-slate-800 mb-4">
-              Servicios Dermatológicos Especializados en Durango
+              Servicios Dermatológicos y Alergológicos Especializados en Durango
             </h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
               Tratamientos personalizados para el cuidado de la piel y alergias con tecnología de vanguardia
@@ -170,9 +170,9 @@ export default function DermatologoLanding() {
                 price: "Consulta Más Información",
               },
               {
-                title: "Rejuvenecimiento Facial Dermatológico",
+                title: "Aplicación de toxina botulínica (Botox)",
                 description:
-                  "Procedimientos dermatológicos para rejuvenecer la piel, disminuir líneas de expresión y mejorar tu autoestima.",
+                  "Tratamiento eficaz para líneas de expresión y sudoración excesiva. Aplicación segura con enfoque dermatológico para mejorar tu bienestar y armonía facial, manteniendo resultados naturales.",
                 icon: <Award className="w-8 h-8" />,
                 price: "Consulta Más Información",
               },
@@ -219,7 +219,7 @@ export default function DermatologoLanding() {
                 icon: <Award className="w-12 h-12 text-[#15a8c5]" />,
                 title: "Especialista Certificado",
                 description:
-                  "Dermatólogo y alergólogo certificado por el Consejo Mexicano de Dermatología. Atención profesional en Durango.",
+                  "Dermatólogo y alergólogo certificado por el Consejo Mexicano de Dermatología y el consejo de Inmunología Clínica y Alergia. Atención profesional en Durango.",
               },
               {
                 icon: <Users className="w-12 h-12 text-[#15a8c5]" />,
@@ -228,8 +228,8 @@ export default function DermatologoLanding() {
               },
               {
                 icon: <Shield className="w-12 h-12 text-[#15a8c5]" />,
-                title: "Tecnología de Vanguardia",
-                description: "Clínica dermatológica con equipos avanzados para diagnóstico y tratamiento en Durango.",
+                title: "Formación Internacional",
+                description: "Especialista con doble certificación en dermatología y alergología, siempre al día en los últimos avances médicos.",
               },
               {
                 icon: <Heart className="w-12 h-12 text-[#15a8c5]" />,
